@@ -25,15 +25,26 @@ header{
 }
 .sair{
     display: flex;
-    justify-content: right;
     background-color: transparent;
     border: none;
     outline: none;
     margin-top: 29px;
     margin-left: 1220px;
-    gap: 12px;
       width: 48px;
     height: 42px;
+    align-items: center; /* alinha verticalmente */
+    gap: 10px; 
+
+}
+.sair A{
+    gap: 50px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+      display: flex;
+    align-items: center; /* alinha verticalmente */
+    gap: 10px; 
+
 
 }
 body{
@@ -84,6 +95,7 @@ main span{
     padding: 50px 10px;
     font-size: 64px;
     text-decoration: none;
+    
 
 
 }
@@ -109,7 +121,6 @@ justify-content: flex-end;
 }
 footer {
     margin-top: 10%;
-    text-align: center;
     padding: 20px;
     background: var(--primary-color);
     color: #ffffff;
@@ -118,16 +129,23 @@ footer {
 }
 footer h3{
     color: var(--secundary-color);
+    text-align: center;
     
 }
 .Estudante{
     margin-left: 50% ;
-        position: absolute;
-    margin-top: 5%;
+    position: absolute;
+    margin-top: 10%;
+    width: 257;
+    height: 426;
+
 
 }
 .Devices{
     margin-top: 20%;
     margin-left: 5%;
     position: absolute;
+}
+.Contatos{
+    margin-top: 5%;
 }
