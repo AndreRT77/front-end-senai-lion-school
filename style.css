@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+:root{
+    --primary-color:#3347B0;
+    --secundary-color: white; 
+
+}
+header{
+    background-color: var(--primary-color);
+    display: flex;
+}
+.logo{
+    font-weight: 800px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    margin-left: 96px;
+    margin-top: 16px;
+    
+}
+.sair{
+    display: flex;
+    justify-content: right;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 29px;
+    margin-left: 1220px;
+    gap: 12px;
+      width: 48px;
+    height: 42px;
+
+}
+body{
+
+    margin:  auto;
+    background-color: #ffffff;
+}
+main{
+    align-items: center;
+}
+main h1{
+    font-weight: 300;
+    font-style: Light;
+    font-size: 57.38px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+main span{
+    font-weight: bold;
+    color: var(--primary-color);
+
+}
+.DS {
+    display: flex;
+    background-color: var(--primary-color);
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.8));
+     border: none;
+    outline: none;
+    align-items: right;
+    width: 400px;
+    height: 200px;
+    margin-left: 944px;
+    margin-top: 10px;
+    gap: 10px;
+    width: 400;
+    height: 450;
+    opacity: 1;
+    position: absolute;
+
+}
+.DS A{
+    align-items:center;
+    color: var(--secundary-color);
+    gap: 50px;
+    padding: 50px 10px;
+    font-size: 64px;
+    text-decoration: none;
+
+
+}
+.Redes {
+    background-color: var(--primary-color);
+    left: 90%;
+    box-shadow: black;
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 200px;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.8));
+    align-items: flex-end;
+justify-content: flex-end;
+
+
+}
+.Redes A{
+    color: var(--secundary-color);
+    font-size: 64px;
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--primary-color);
+    color: #ffffff;
+    font-size: 14px;
+    border-top: 1px solid rgba(139, 92, 246, 0.2);
+}
+footer h3{
+    color: var(--secundary-color);
+    
+}
+main estudantes-icon{
+    margin-left: ;
+}
