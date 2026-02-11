@@ -50,6 +50,9 @@ main h1{
     font-size: 57.38px;
     line-height: 100%;
     letter-spacing: 0%;
+    margin-left: 10%;
+    margin-top: 5%;
+    position: absolute;
 }
 main span{
     font-weight: bold;
@@ -65,8 +68,8 @@ main span{
     align-items: right;
     width: 400px;
     height: 200px;
-    margin-left: 944px;
-    margin-top: 10px;
+    margin-left: 80%;
+    margin-top: 5%;
     gap: 10px;
     width: 400;
     height: 450;
@@ -86,12 +89,13 @@ main span{
 }
 .Redes {
     background-color: var(--primary-color);
-    left: 90%;
     box-shadow: black;
     border: none;
     outline: none;
     width: 400px;
     height: 200px;
+      margin-left: 80%;
+    margin-top: 18.5%;
     filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.8));
     align-items: flex-end;
 justify-content: flex-end;
@@ -104,6 +108,7 @@ justify-content: flex-end;
     text-decoration: none;
 }
 footer {
+    margin-top: 10%;
     text-align: center;
     padding: 20px;
     background: var(--primary-color);
@@ -115,6 +120,14 @@ footer h3{
     color: var(--secundary-color);
     
 }
-main estudantes-icon{
-    margin-left: ;
+.Estudante{
+    margin-left: 50% ;
+        position: absolute;
+    margin-top: 5%;
+
+}
+.Devices{
+    margin-top: 20%;
+    margin-left: 5%;
+    position: absolute;
 }
